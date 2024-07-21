@@ -1,0 +1,1072 @@
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  header {
+    /* padding: 0; */
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+  }
+  .fylo-logo {
+    margin-top: 15px;
+    margin-left: 32px;
+    margin: 0;
+    width: 100px;
+  }
+  .nav-container {
+    width: 100%;
+    height: 70px;
+  }
+  .navbar {
+    margin: 0;
+    display: flex;
+    gap: 12px;
+  }
+  .navbar a:link,
+  .navbar a:visited {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(7, 4, 57);
+  }
+  .mail {
+    width: 280px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+  .btn:link,
+  .btn:visited {
+    background-color: #2f65f9;
+    border: 1px solid;
+    border-color: #00000000;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    width: 280px;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .motto-container {
+    margin: 0;
+    padding-top: 64px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 120px 80px 120px;
+    row-gap: 32px;
+    margin-bottom: 48px;
+  }
+  .motto {
+    grid-column: 1/-1;
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 50px;
+    padding: 0;
+  }
+  .motto h1 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.5;
+    width: 350px;
+  }
+  .foreword {
+    grid-column: span 2;
+    padding-left: 50px;
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    /* margin-top: 20px; */
+  }
+  p {
+    font-size: 16px;
+    width: 300px;
+  }
+  .input-container {
+    width: 280px;
+    grid-row: 4/5;
+    grid-column: 1/3;
+    margin-left: 0px;
+    align-self: center;
+    justify-self: center;
+  }
+  .illustration {
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    justify-self: center;
+  }
+  .illustration-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #testimonial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .bg-curve {
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+  }
+  .illustration-2 {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .illustration-2 img {
+    width: 100%;
+    height: auto;
+  }
+  .curve-txt {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin: 0;
+    font-size: 14px;
+  }
+  .testimonial-container {
+    width: 100%;
+    height: 750px;
+    padding: 48px 0;
+    background-color: #f9f8fe;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-container h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .bg-text {
+    margin-bottom: 17px;
+  }
+  .testimonial {
+    padding: 0 30px;
+    padding: 0;
+    padding: 0 16px;
+    padding-bottom: 24px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin: 0;
+    margin: 32px auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: #fff;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.1032);
+    /* position: relative; */
+  }
+  .icon-quotes {
+    width: 12px;
+    height: auto;
+    /* margin-left: 20px; */
+    align-items: flex-start;
+    margin-top: 35px;
+    /* position: absolute;
+      top: 20px;
+      left: 20px; */
+  }
+  .icon-quotes img {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonial-container a:link {
+    font-size: 16px;
+    text-decoration: none;
+    align-self: center;
+    justify-self: center;
+  }
+  .icon-arrow {
+    width: 22px;
+    height: auto;
+  }
+  .btn-see:link,
+  .btn-see:visited {
+    display: inline-block;
+    width: 162px;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid;
+    display: flex;
+    gap: 8px;
+  }
+  .testimonial-txt p {
+    font-size: 14px;
+    width: 290px;
+    margin: 0;
+  }
+  .testimonial-profile {
+    height: 50px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .name {
+    margin-top: 5px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+  }
+  .name h4 {
+    font-size: 14px;
+    display: inline-block;
+    /* display: none; */
+  }
+  .name p {
+    display: inline-block;
+    font-size: 8px;
+    width: fit-content;
+  }
+  .avatar-testimonial {
+    display: inline;
+    width: 40px;
+    height: auto;
+    border-radius: 40px;
+  }
+
+  #signup {
+    width: 100%;
+    height: auto;
+    /* margin-top: 64px; */
+    background-color: #575989;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    padding: 48px 0px;
+    /* position: relative; */
+  }
+  .signup-text {
+    width: fit-content;
+    height: 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .signup-text p:first-child {
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 24px;
+    display: inline;
+  }
+  .signup-text p:last-child {
+    color: white;
+    font-size: 16px;
+    width: 279px;
+    align-self: center;
+  }
+  .signup-input {
+    margin-top: 100px;
+    margin: 0;
+    outline: none;
+    border: none;
+    width: 280px;
+  }
+  .signup-input input {
+    display: block;
+    width: 280px;
+    height: 40px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+  .signup-input button {
+    width: 280px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: #2f65f9;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .signup-input input:focus-visible {
+    outline: none;
+    border: 1px solid;
+  }
+
+  footer {
+    height: auto;
+    background-color: #07043b;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 48px 48px;
+  }
+
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+  }
+  .contact ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .footer-logo {
+    padding-left: 32px;
+  }
+  .navbar-f {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footer-logo-img {
+    fill: #fff;
+  }
+  .navbar-f a:link,
+  .navbar-f a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .socials {
+    margin: 0;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 24px;
+  }
+  .icon-social {
+    padding: 7px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px){
+  header {
+    /* padding: 0; */
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    gap: 32px;
+  }
+  .footer-logo {
+    padding-left: 32px;
+    width: 300px;
+  }
+  .curve-txt {
+    padding: 0;
+  }
+  .testimonial-txt {
+    width: 265px;
+  }
+  .testimonial-txt p {
+    width: 265px;
+  }
+  .motto h1 {
+    width: 300px;
+  }
+  .signup-text p:last-child {
+    margin-right: 0;
+  }
+  .btn-see:link,
+  .btn-see:visited {
+    display: inline-block;
+    width: 168px;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid;
+    display: flex;
+    gap: 12px;
+  }
+    .fylo-logo {
+      margin-top: 15px;
+      margin-left: 32px;
+      margin: 0;
+      width: 100px;
+    }
+    .nav-container {
+      width: 100%;
+      height: 70px;
+    }
+    .navbar {
+      margin: 0;
+      display: flex;
+      gap: 12px;
+    }
+    .navbar a:link,
+    .navbar a:visited {
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(7, 4, 57);
+    }
+    .mail {
+      width: 280px;
+      margin: 0;
+      text-align: left;
+      margin-bottom: 12px;
+    }
+    .btn:link,
+    .btn:visited {
+      background-color: #2f65f9;
+      border: 1px solid;
+      border-color: #00000000;
+      color: #fff;
+      margin: 0;
+      display: inline-block;
+      text-align: center;
+      width: 280px;
+      padding: 12px;
+      text-decoration: none;
+    }
+    .motto-container {
+      margin: 0;
+      padding-top: 64px;
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 250px 120px 80px 120px;
+      row-gap: 32px;
+      margin-bottom: 48px;
+    }
+    .motto {
+      grid-column: 1/-1;
+      justify-self: center;
+      align-self: center;
+      width: fit-content;
+      height: fit-content;
+      padding-left: 50px;
+      padding: 0;
+    }
+    .foreword {
+      grid-column: span 2;
+      padding-left: 50px;
+      padding: 0;
+      align-self: center;
+      justify-self: center;
+      text-align: center;
+      /* margin-top: 20px; */
+    }
+    p {
+      font-size: 16px;
+      width: 300px;
+    }
+    .input-container {
+      width: 280px;
+      grid-row: 4/5;
+      grid-column: 1/3;
+      margin-left: 0px;
+      align-self: center;
+      justify-self: center;
+    }
+    .illustration {
+      width: 250px;
+      height: auto;
+      position: relative;
+      left: 0;
+      top: 0;
+      grid-column: 1/-1;
+      grid-row: 1/2;
+      justify-self: center;
+    }
+    .illustration-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #testimonial {
+      display: flex;
+      flex-direction: column;
+      margin-top: 200px;
+    }
+    .bg-curve {
+      background-image: url(./images/bg-curve-mobile.svg);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 50px;
+      background-size: cover;
+    }
+    .illustration-2 {
+      width: 300px;
+      height: auto;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+    .illustration-2 img {
+      width: 100%;
+      height: auto;
+    }
+    .curve-txt {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+      margin-top: 10px;
+      margin: 0;
+      font-size: 14px;
+    }
+    .testimonial-container {
+      width: 100%;
+      height: 750px;
+      padding: 48px 0;
+      background-color: #f9f8fe;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .testimonial-container h1 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .bg-text {
+      margin-bottom: 17px;
+    }
+    .testimonial {
+      padding: 0 30px;
+      padding: 0;
+      padding: 0 16px;
+      padding-bottom: 24px;
+      height: auto;
+      border-radius: 5px;
+      margin-left: 50px;
+      margin-top: 40px;
+      margin: 0;
+      margin: 32px auto;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      justify-content: flex-start;
+      gap: 10px;
+      background-color: #fff;
+      box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.1032);
+      /* position: relative; */
+    }
+    .icon-quotes {
+      width: 12px;
+      height: auto;
+      /* margin-left: 20px; */
+      align-items: flex-start;
+      margin-top: 35px;
+      /* position: absolute;
+        top: 20px;
+        left: 20px; */
+    }
+    .icon-quotes img {
+      width: 100%;
+      height: 100%;
+    }
+    .testimonial-container a:link {
+      font-size: 16px;
+      text-decoration: none;
+      align-self: center;
+      justify-self: center;
+    }
+    .icon-arrow {
+      width: 22px;
+      height: auto;
+    }
+    .testimonial-profile {
+      height: 50px;
+      padding: 5px 5px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .name {
+      margin-top: 5px;
+      width: 100px;
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      justify-content: flex-start;
+    }
+    .name h4 {
+      font-size: 14px;
+      display: inline-block;
+      /* display: none; */
+    }
+    .name p {
+      display: inline-block;
+      font-size: 8px;
+      width: fit-content;
+    }
+    .avatar-testimonial {
+      display: inline;
+      width: 40px;
+      height: auto;
+      border-radius: 40px;
+    }
+  
+    #signup {
+      width: 100%;
+      height: auto;
+      /* margin-top: 64px; */
+      background-color: #575989;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      align-items: center;
+      padding: 48px 0px;
+      /* position: relative; */
+    }
+    .signup-text {
+      width: fit-content;
+      height: 150px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .signup-text p:first-child {
+      color: white;
+      font-size: 20px;
+      padding: 0;
+      margin-bottom: 24px;
+      display: inline;
+    }
+    .signup-text p:last-child {
+      color: white;
+      font-size: 16px;
+      width: 279px;
+      align-self: center;
+    }
+    .signup-input {
+      margin-top: 100px;
+      margin: 0;
+      outline: none;
+      border: none;
+      width: 280px;
+    }
+    .signup-input input {
+      display: block;
+      width: 280px;
+      height: 40px;
+      padding: 10px 10px;
+      margin-bottom: 10px;
+    }
+    .signup-input button {
+      width: 280px;
+      height: 40px;
+      padding: 10px 10px;
+      background-color: #2f65f9;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .signup-input input:focus-visible {
+      outline: none;
+      border: 1px solid;
+    }
+  
+    footer {
+      height: auto;
+      background-color: #07043b;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      padding: 48px 48px;
+    }
+  
+    .contact ul {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      color: #fff;
+    }
+    .contact ul li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .navbar-f {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .footer-logo-img {
+      fill: #fff;
+    }
+    .navbar-f a:link,
+    .navbar-f a:visited {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .socials {
+      margin: 0;
+      align-self: center;
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      gap: 24px;
+    }
+    .icon-social {
+      padding: 7px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #fff;
+      border-radius: 40px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width:800px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        position: relative;
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+      
+      }
+      header {
+        padding: 24px 0px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .fylo-logo {
+        margin-top: 15px;
+        margin-left: 50px;
+        width: 150px;
+      }
+      .nav-container {
+        width: 100%;
+        height: 70px;
+      }
+      
+      .navbar a:link,.navbar a:visited{
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(7, 4, 57);
+      }
+      .navbar {
+        margin-right: 50px;
+      }
+      .motto-container {
+        margin: 0;
+        margin-top: 128px;
+        padding-top: 32px;
+        width: fit-content;
+      height: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 100px 100px;
+        align-items: center;
+        column-gap: 48px;
+      }
+      .motto {
+        width: fit-content;
+        height: fit-content;
+        padding-left: 50px;
+      
+      }
+      .motto h1 {
+        font-size: 2.3em;
+        line-height: 50px;
+        margin-bottom: 32px;
+      }
+      .foreword {
+        padding-left: 50px;
+        /* margin-top: 20px; */
+      }
+      p {
+        font-size: 16px;
+      }
+      .input-container {
+        margin-left: 50px;
+      }
+      .illustration {
+        width: 340px;
+        height: auto;
+        grid-column: 2/3;
+        grid-row: 1/4;
+        align-self: start;
+      }
+      .illustration-img {
+        width: 100%;
+        height: auto;
+      }
+      .mail {
+        height: 38px;
+        width: 310px;
+        padding: 15px;
+        border: 1px solid rgb(191, 191, 191);
+        border-radius: 2px;
+      }
+      .btn:link,.btn:visited{
+        background-color: #2f65f9;
+        border: 1px solid #dadada;
+        color: #fff;
+        margin-left: 0px;
+        margin-top: 12px;
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+        padding: 10px;
+        text-decoration: none;
+      }
+      #testimonial {
+        display: flex;
+        flex-direction: column;
+        margin-top: 128px;
+      }
+      .bg-curve {
+        background-image: url(./images/bg-curve-desktop.svg);
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 61px;
+      }
+      .curve-txt {
+        width: fit-content;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+        padding: 0 16px;
+        
+      }
+      .testimonial-container {
+        width: 100%;
+        padding-top: 32px;
+        height: 700px;
+        background-color: #f6f6fe;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 300px;
+        align-items: start;
+        justify-content: center;
+        column-gap: 32px;
+        
+      }
+      .illustration-2 {
+        width: 320px;
+        height: auto;
+        grid-column: 2/3;
+        grid-row: 1/3;
+      }
+      .illustration-2 img {
+        width: 100%;
+        height: auto;
+      }
+      .testimonial-container h1 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+      }
+      .bg-text {
+        margin-bottom: 17px;
+      }
+      .testimonial {
+        padding: 0 30px;
+        height: 220px;
+        width: 350px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.1032);
+      }
+      .icon-quotes {
+        width: 20px;
+        height: 20px;
+        margin-top: 35px;
+      }
+      .icon-quotes img {
+        width: 100%;
+        height: 100%;
+      }
+      .testimonial-container a:link {
+        font-size: 16px;
+        text-decoration: none;
+        position: relative;
+      }
+      .icon-arrow {
+        width: 22px;
+        height: auto;
+      }
+      .btn-see:link,.btn-see:visited{
+        display: inline-block;
+        font-size: 16px;
+        width: 166px;
+        color: hsl(170, 45%, 43%);
+        border-bottom: 2px solid;
+        display: flex;
+        gap: 12px;
+      }
+      .testimonial-txt p {
+        font-size: 16px;
+      }
+      .testimonial-profile {
+        height: 50px;
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      
+      .name {
+        margin-top: 5px;
+      }
+      .name p {
+        font-size: 11px;
+      }
+      .avatar-testimonial {
+        display: inline;
+        width: 40px;
+        height: auto;
+        border-radius: 40px;
+      }
+      
+      #signup {
+        width: 100%;
+        height: 260px;
+        background-color: #575989;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        gap: 30%;
+        /* position: relative; */
+      }
+      .signup-text {
+        width: fit-content;
+        height: 150px;
+        margin-top: 24px;
+        margin-left: 50px;
+      }
+      .signup-text p:first-child {
+        color: white;
+        font-size: 28px;
+        padding-bottom: 20px;
+      }
+      .signup-text p:last-child {
+        color: white;
+        font-size: 16px;
+      }
+      .signup-input {
+        margin-top: 100px;
+        outline: none;
+        border: none;
+        margin-right: 32px;
+      }
+      .signup-input input {
+        display: block;
+        width: 300px;
+        height: 40px;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+      }
+      .signup-input button {
+        width: 180px;
+        height: 40px;
+        padding: 10px 10px;
+        background-color: #2f65f9;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+      .signup-input input:focus-visible {
+        outline: none;
+        border: 1px solid;
+      }
+      footer {
+        height: auto;
+        background-color: #07043b;
+        display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: 80px 150px;
+        padding: 48px 24px;
+        row-gap: 24px;
+        column-gap: 48px;
+      }
+      .footer-logo{
+        width: 350px;
+        grid-column: 1/-1;
+        align-self: center;
+      }
+      .contact ul{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      color: #fff;
+      }
+      .contact ul li{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      }
+      
+      .navbar-f{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      }
+      .footer-logo-img{
+      fill: #fff;
+      }
+      .navbar-f a:link
+      ,.navbar-f a:visited{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .socials {
+        margin: 0;
+        align-self: start;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        gap: 24px;
+      
+      }
+      .icon-social{
+        padding: 7px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 40px;
+      }
+      
+      
+  }
