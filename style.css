@@ -33,6 +33,8 @@ header {
 }
 .navbar {
   margin-right: 50px;
+  display: flex;
+  gap: 48px;
 }
 .motto-container {
   margin: 0;
