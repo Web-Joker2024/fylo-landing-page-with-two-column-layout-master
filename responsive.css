@@ -206,7 +206,7 @@
   }
   .btn-see:link,
   .btn-see:visited {
-    font-size:14px;
+    font-size:12px;
     display: inline-block;
     width: 180px;
     color: hsl(170, 45%, 43%);
