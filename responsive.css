@@ -400,11 +400,11 @@
   .btn-see:link,
   .btn-see:visited {
     display: inline-block;
-    width: 165px;
+    width: 168px;
     color: hsl(170, 45%, 43%);
     border-bottom: 2px solid;
     display: flex;
-    gap: 10px;
+    gap: 12px;
   }
     .fylo-logo {
       margin-top: 15px;
